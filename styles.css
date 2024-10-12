@@ -1,0 +1,62 @@
+body {
+    font-family: "Orbitron", sans-serif;
+    font-size: 12px;
+    color: yellow;
+    background-color: #000;
+    background-image: url("img/StarWarsSpace.webp");
+    display: flex; 
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+table {
+    margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-collapse: collapse;
+}
+td {
+    border: 1px solid #716415;
+    padding: 10px;
+    width: 275px;
+    text-align: center;
+}
+h1 {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 20px;
+    transition: .25s;
+}
+
+.rebelwin{
+    color:sandybrown;
+}
+.imperialwin{
+    color:red;
+}
+.nobodywins{
+    color:grey;
+}
+
+table img {
+    width: 200px;
+    height: auto;
+    transition: .5s;
+}
+table img:hover {
+    filter: blur(5px);
+    transition: .25s;
+}
+
+.nombrenave {
+    font-size:22px;
+    transition: .5s;
+}
+
+.perdedor {
+    filter: brightness(30%);
+}
+.perdedor img {
+    filter: blur(2px);
+}
